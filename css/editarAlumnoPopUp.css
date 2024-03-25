@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav.navbar {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 18px;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+nav.navbar .navbar-nav .nav-link,
+nav.navbar .btn-outline-success,
+nav.navbar .btn-outline-secondary {
+    color: white;
+}
+
+.name-application {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    width: 33.33%;
+    font-weight: bold;
+    gap: 16px;
+}
+
+.name-window {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 33.33%;
+}
+
+.name-teacher {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    width: 33.33%;
+    gap: 16px;
+}
+
+body {
+    background-image: url(../imgs/fondo4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+#Agregar_alumno {
+    margin-top: 0px;
+    font-size: 40px;
+    color: white;
+    font-weight: bolder;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+
+
+.centro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(0, 0%, 0%, 0.700);
+    width: 25%;
+    height: 350px;
+    padding: 50px;
+    border-radius: 50px;
+}
+
+.nom,
+.hor,
+.grup {
+    font-weight: bolder;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 20px 10px 20px;
+    color: white;
+}
+
+.material-symbols-outlined {
+    user-select: none;
+}
+
+
+#txtNumCont{
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    border-radius: 0;
+    color: hsl(0, 0%, 85%);
+
+    &:focus {
+        box-shadow: 0 0 0 .25rem rgba(0, 0, 0, 0);
+    }
+}
+
+#botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+    padding: 10px;
+    border: 0px;
+}
+
+#NombreMaestro{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 875px;
+    align-items: center;
+}
+
+#btnSi{
+    width: 80px;
+}

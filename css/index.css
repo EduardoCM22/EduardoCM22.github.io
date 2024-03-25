@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*body {
+    font-size: 18px;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+
+}*/
+
+nav.navbar {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 18px;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+nav.navbar,
+nav.navbar .navbar-nav .nav-link,
+nav.navbar {
+    color: white;
+}
+
+.nav-item {
+    font-size: 14px;
+}
+
+.navbar-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button.btn-outline-light {
+    color: #ffffff;
+
+    &:hover {
+        color: #000;
+        background-color: rgb(255, 255, 255);
+        border-color: #ddd;
+    }
+}
+
+
+#banner {
+    background-position: center;
+    background-attachment: fixed;
+    background: radial-gradient(#feb45c,
+            #be4064,
+            #312790,
+            #01cebd);
+    background-size: 500% 500%;
+    animation: gradient 25s ease infinite;
+    height: 100vh;
+    backdrop-filter: blur(2px);
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    
+}
+
+#banner h1 {
+    font-size: 3em;
+}
+
+#banner h2 {
+    font-size: 2.5em;
+}
+
+
+body {
+    overflow-x: hidden
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.nameL {
+    font-weight: bolder;
+    margin-right: 20px;
+}
+
+#centro {
+
+    /*background-image: url(../imgs/fondo1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    */
+    color: white;
+    padding: 0px 0px;
+    /*height: calc(100vw * 9 / 16);*/
+    height: 91.5vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+#centro h1 {
+    font-size: 4em;
+}
+
+#centro h2 {
+    font-size: 2.5em;
+}
+
+#centro div {
+    width: 25%;
+}
+
+#centro h3 {
+
+    font-size: 1.5em;
+    font-weight: bolder;
+    /*
+    background: -webkit-linear-gradient(rgb(255, 255, 255), hsl(0, 0%, 100%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    */
+    padding: 0px 0px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+#h3 {
+    background: linear-gradient(270deg, #00000046, transparent);
+    border-radius: 60px;
+    background-position: fixed;
+    background-size: 1000px 10px;
+
+}
+
+
+.line-1 {
+    position: relative;
+    top: 40%;
+    width: 15em;
+    height: 76px;
+    margin: 0 auto;
+    border-right: 5px solid rgba(255, 255, 255, 1);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
+
+.anim-typewriter {
+    animation: typewriter 1.5s steps(15) 1s 1 normal both,
+        blinkTextCursor 350ms steps(44) infinite normal;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 4.6em;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: rgba(255, 255, 255, .75);
+    }
+
+    to {
+        border-right-color: transparent;
+    }
+}

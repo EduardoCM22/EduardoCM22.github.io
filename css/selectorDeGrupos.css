@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav.navbar {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 18px;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+nav.navbar .navbar-nav .nav-link,
+nav.navbar .btn-outline-success,
+nav.navbar .btn-outline-secondary {
+    color: white;
+}
+
+.name-application {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    width: 33.33%;
+    font-weight: bold;
+    gap: 16px;
+}
+
+.name-window {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 33.33%;
+}
+
+.name-teacher {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    width: 33.33%;
+    gap: 16px;
+}
+
+#NombreMaestro {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 875px;
+    align-items: center;
+}
+
+body {
+    background-image: url(../imgs/fondo4.jpg);
+    background-position: center;
+    background-size: 150%;
+    background-attachment: fixed;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+.superior {
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    width: 100%;
+    height: 100px;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 25px;
+}
+
+.materia1,
+.meteria2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(0, 0%, 0%, 0.300);
+    width: 25%;
+    height: 150px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#txtNombre {
+    font-weight: bolder;
+    font-size: 20px;
+    width: 100%;
+    padding: 10px 0 5px 20px;
+    color: white;
+}
+
+#txtGrupo {
+    font-size: 20px;
+    width: 100%;
+    padding: 0 0px 5px 20px;
+    color: white;
+}
+
+.btnSMateria {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px;
+    width: 100%;
+}
+
+.btnSeccion1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.btnSeccion2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 50%;
+    padding: 0 10px 0 0;
+}

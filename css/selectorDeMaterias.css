@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav.navbar {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 18px;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+nav.navbar .navbar-nav .nav-link,
+nav.navbar .btn-outline-success,
+nav.navbar .btn-outline-secondary {
+    color: white;
+}
+
+.name-application {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    width: 33.33%;
+    font-weight: bold;
+    gap: 16px;
+}
+
+.name-window {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 33.33%;
+}
+
+.name-teacher {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    width: 33.33%;
+    gap: 16px;
+}
+
+body {
+    background-image: url(../imgs/fondo1.jpg);
+    background-position: center;
+    background-size: 150%;
+    background-attachment: fixed;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 10px;
+    height: 100%;
+    gap: 10px;
+}
+
+.materias,
+.datos {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px;
+    height: 180px;
+    gap: 10px;
+}
+
+.tabla {
+    display: flex;
+    flex-direction: column;
+    background-color: hsla(0, 0%, 0%, 0.300);
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+    padding: 20px 30px;
+    overflow-y: auto;
+}
+
+.materia1,
+.meteria2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(0, 0%, 0%, 0.300);
+    width: 25%;
+    height: 150px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#txtNombre {
+    font-weight: bolder;
+    font-size: 20px;
+    width: 100%;
+    padding: 10px 0 5px 20px;
+    color: white;
+}
+
+#txtGrupo {
+    font-size: 20px;
+    width: 100%;
+    padding: 0 0px 5px 20px;
+    color: white;
+}
+
+.btnMateria {
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    padding: 0 20px 0 0;
+    width: 100%;
+}
+
+.btnSeccion2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 50%;
+    padding: 0 10px 0 0;
+}
+
+thead {
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    }
+
+tbody > tr > th {
+    color: white;
+    font-weight: normal;
+    text-align: center;
+    font-size: 18px;
+    padding: 5px;
+}
+
+tbody > tr {
+    border-bottom: 1px solid #e2e1dc;
+    background-color: rgba(0, 0, 0, 0.300);
+}
+
+tbody :last-child{
+    border-bottom: none;
+}
